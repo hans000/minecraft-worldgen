@@ -1,0 +1,24 @@
+{
+    "desc": "",
+    "time": "",
+    "root": {
+        "tpl": "worldgen",
+        "has": [],
+        "nbt": {
+            "type": {
+                "value": ""
+            },
+            "generator": {
+                "tpl": "noise_generator",
+                "list": [
+                    {
+                        "has": [],
+                        "nbt": {
+                            "id": "sd"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
