@@ -294,95 +294,32 @@
         }
     },
     "structure_structure": {
+        "key": {
+            "structure": [
+                "jungle_pyramid",
+                "village",
+                "endcity",
+                "ruined_portal",
+                "igloo",
+                "stronghold",
+                "bastion_remnant",
+                "desert_pyramid",
+                "nether_fossil",
+                "buried_treasure",
+                "mansion",
+                "shipwreck",
+                "monument",
+                "swamp_hut",
+                "fortress",
+                "pillager_outpost",
+                "ocean_ruin",
+                "mineshaft"
+            ]
+        },
         "nbt": {
-            "jungle_pyramid": {
+            "${structure}": {
                 "type": "object",
-                "subtype": "jungle_pyramid_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "village": {
-                "type": "object",
-                "subtype": "village_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "endcity": {
-                "type": "object",
-                "subtype": "endcity_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "ruined_portal": {
-                "type": "object",
-                "subtype": "ruined_portal_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "igloo": {
-                "type": "object",
-                "subtype": "igloo_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "stronghold": {
-                "type": "object",
-                "subtype": "stronghold_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "bastion_remnant": {
-                "type": "object",
-                "subtype": "bastion_remnant_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "desert_pyramid": {
-                "type": "object",
-                "subtype": "desert_pyramid_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "nether_fossil": {
-                "type": "object",
-                "subtype": "nether_fossil_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "buried_treasure": {
-                "type": "object",
-                "subtype": "buried_treasure_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "mansion": {
-                "type": "object",
-                "subtype": "mansion_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "shipwreck": {
-                "type": "object",
-                "subtype": "shipwreck_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "monument": {
-                "type": "object",
-                "subtype": "monument_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "swamp_hut": {
-                "type": "object",
-                "subtype": "swamp_hut_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "fortress": {
-                "type": "object",
-                "subtype": "fortress_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "pillager_outpost": {
-                "type": "object",
-                "subtype": "pillager_outpost_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "ocean_ruin": {
-                "type": "object",
-                "subtype": "ocean_ruin_structure",
-                "description": "区块中两次这种结构的放置尝试的平均距离"
-            },
-            "mineshaft": {
-                "type": "object",
-                "subtype": "mineshaft_structure",
+                "subtype": "base_structure",
                 "description": "区块中两次这种结构的放置尝试的平均距离"
             }
         }
@@ -403,60 +340,6 @@
                 "description": "帮助进行随机化的数字"
             }
         }
-    },
-    "jungle_pyramid_structure": {
-        "base": ["base_structure"]
-    },
-    "village_structure": {
-        "base": ["base_structure"]
-    },
-    "endcity_structure": {
-        "base": ["base_structure"]
-    },
-    "ruined_portal_structure": {
-        "base": ["base_structure"]
-    },
-    "igloo_structure": {
-        "base": ["base_structure"]
-    },
-    "stronghold_structure": {
-        "base": ["base_structure"]
-    },
-    "bastion_remnant_structure": {
-        "base": ["base_structure"]
-    },
-    "desert_pyramid_structure": {
-        "base": ["base_structure"]
-    },
-    "nether_fossil_structure": {
-        "base": ["base_structure"]
-    },
-    "buried_treasure_structure": {
-        "base": ["base_structure"]
-    },
-    "mansion_structure": {
-        "base": ["base_structure"]
-    },
-    "shipwreck_structure": {
-        "base": ["base_structure"]
-    },
-    "monument_structure": {
-        "base": ["base_structure"]
-    },
-    "swamp_hut_structure": {
-        "base": ["base_structure"]
-    },
-    "fortress_structure": {
-        "base": ["base_structure"]
-    },
-    "pillager_outpost_structure": {
-        "base": ["base_structure"]
-    },
-    "ocean_ruin_structure": {
-        "base": ["base_structure"]
-    },
-    "mineshaft_structure": {
-        "base": ["base_structure"]
     },
     "debug_generator": {
         "has": true,
